@@ -30,6 +30,17 @@ source ~/.bash_profile
 
 Enjoy!
 
+## Why have this, when the CCI CLI lib (click) can provide this out of the box?
+
+Well, I didn't know it could, when I first wrote this... but it can, and you can try it with the instructions [here](https://click.palletsprojects.com/en/7.x/bashcomplete/). Something I did note when testing this is that the complettion has a significant lag (at least half a second) when using the route defined on this page.
+
+If you want to try it yourself, just run this (before running this project's installation instructions, of course).
+
+```
+eval "$(_CCI_COMPLETE=source_bash cci)"
+```
+
+
 ## Roadmap / To-do
 
  1. Auto complete _FLOW_NAME_ for commands like `cci flow run [OPTIONS] FLOW_NAME`
