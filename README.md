@@ -6,6 +6,8 @@ Inspired by the [salesforce-cli-bash-completion](https://github.com/wadewegner/s
 
 Props to the Cumulus CI team (and all that are part of Salesforce.org).
 
+![Screenshot](/img/cci-01.gif)
+
 ## Installation
 
 Clone this repository, and move to it's directory:
